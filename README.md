@@ -20,30 +20,30 @@ In main page , you will see  all personal details of the user .
 
 Besides, if you just want to read articles shared by user, just click on blog button in top of the page ,it will redirect you to blog page . you can see the accomplishment of owner by clicking on accomplishment button in top of the page .
 
-![main page](/screenshot/slideshow.png)
+![main page](/screenshot/slideshow.PNG)
 
 ## About section
 here you will see the personal details of user
-![about](/screenshot/about.png)
+![about](/screenshot/about.PNG)
 
 ## accomplishment section
 
 By clicking on accomplishment button ,you will see the achievement of owner .
-![accomplishment](/screenshot/training.png)
+![accomplishment](/screenshot/training.PNG)
 
 
 ## blog Page
 you will see the latest blog created by user . you will also see different catagories listed there ,you can choose any catagory and read related blog by clicking there .
-![blog](/screenshot/blog.png)
+![blog](/screenshot/blog.PNG)
 
 ## blog details
 if you click on any post listed in blog page ,you will be redirect to details page ,there you can read the article and also put your comment there .
-![details](/screenshot/detail.png)
-![details](/screenshot/comment.png)
+![details](/screenshot/detail.PNG)
+![details](/screenshot/comment.PNG)
 
 # Back End
 in Backend ,i ahve used postgresql for database . there have 4 models including Achievement ,blog ,catagory ,comment .
-![backend](/screenshot/backend.png)
+![backend](/screenshot/backend.PNG)
 
 ## Super User
 super user is the powerful data manipulation tool provided by django . you can create super user by running command : python manage.py createsuperuser
