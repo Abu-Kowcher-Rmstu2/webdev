@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<section>
+  <h1 class="space-heading">Training and Certifications</h1>
+
+  <div class="row">
+    {% for cert in object_list %}
+    <div class="col-sm-6 col-md-4">
+      <div class="card">
+        <a href="{{cert.url}}" target="_blank"><div class="img-tile">
+           <img src="{{cert.image.url}}" alt="...">
+       </div>
+       <div class="caption">
+         <h3>{{cert.catagory}}</h3>
+         <p>{{cert.caption}}</p>
+       </div>
+       </a>
+      </div>
+    </div>
+    {% endfor %}
+    </div>
+</section>
+
+{% endblock %}
