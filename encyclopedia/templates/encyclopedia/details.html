@@ -1,0 +1,23 @@
+{% extends "encyclopedia/layout.html" %}
+{% load static %}
+
+{% block title %}
+    Encyclopedia
+{% endblock %}
+
+{% block content %}
+    <div class="row col-md-4" style="float:right">
+      <a href="{% url 'edit' title %}" type="button"  class="btn btn-secondary" style="margin-left:50%;width:20p%;">Edit</a>
+    </div>
+    <div class="container content-markdown" style="clear:right">
+
+      {{filename|safe}}
+      <div id="content">
+
+      </div>
+
+    </div>
+
+
+
+{% endblock %}
